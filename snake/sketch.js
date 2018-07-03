@@ -96,6 +96,7 @@ class Snake{
   function draw() { 
     background(51);
     snake.show()
+    text(snake.tail.length.toString(), 20, 20)
     if(snake.dies()){
       text('GAME OVER', width/2-50, height/2)
     } else {
