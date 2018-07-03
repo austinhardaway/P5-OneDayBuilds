@@ -75,7 +75,7 @@ class Snake{
       constructor(){
           this.x = random(0,width)
           this.y = random(0, height)  
-          this.w = 20
+          this.w = 10
           this.c = [floor(random(0, 255)), floor(random(0, 255)), floor(random(0, 255))]
       }
       show(){
